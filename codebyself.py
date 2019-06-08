@@ -1,5 +1,9 @@
 # Face Recognition
+"""
+Created on Sat Jun  8 12:45:24 2019
 
+@author: Shiva
+"""
 import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
